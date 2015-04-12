@@ -21,7 +21,7 @@ module Ruboty
             from_message,
             from_message,
             Response
-          ].flatten.sample(1)
+          ].flatten.sample
         end
 
         def from_message
