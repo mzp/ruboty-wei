@@ -1,26 +1,33 @@
 # Ruboty::Wei
-
-TODO: Write a gem description
+Ruboty plugin for responding with ｳｪｲ.
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'ruboty-wei'
+gem 'ruboty-wei', github: 'mzp/ruboty-wei'
 ```
 
 And then execute:
 
     $ bundle
 
-Or install it yourself as:
-
-    $ gem install ruboty-wei
-
 ## Usage
 
-TODO: Write usage instructions here
+```
+> ruboty ｳｪｲ
+ｳｪｲw
+```
+
+## Env
+
+ * `WEI_ALL`: all: respond with all ｳｪｲ
+
+```
+> ｳｪｲ
+ｳｪｲw
+```
 
 ## Contributing
 
